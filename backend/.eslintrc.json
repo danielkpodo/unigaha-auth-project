@@ -1,0 +1,48 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "prettier", "plugin:node/recommended"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "import/extensions": "off",
+    "func-names": "off",
+    "no-plusplus": "off",
+    "no-process-exit": "off",
+    "import/order": "off",
+    "class-methods-use-this": "off",
+    "object-curly-newline": "off",
+    "comma-dangle": "off",
+    "no-restricted-syntax": "off",
+    "guard-for-in": "off",
+    "no-await-in-loop": "off",
+    "no-useless-constructor": "off",
+    "consistent-return": "off",
+    "array-callback-return": "off",
+    "no-path-concat": "off",
+    "prefer-template": "off",
+    "import/no-dynamic-require": "off",
+    "implicit-arrow-linebreak": "off",
+    "strict": "off",
+    "quotes": "off",
+    "arrow-parens": "off",
+    "global-require": "off",
+    "arrow-body-style": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-return-assign": "off",
+    "no-param-reassign": "off",
+    "no-use-before-define": "off",
+    "prefer-destructuring": "off"
+  }
+}

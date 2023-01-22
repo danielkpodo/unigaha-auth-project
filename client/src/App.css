@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+}
+
+.toast-position {
+  width: 25rem;
+}
+
+@media screen and (max-width: 500px) {
+  .toast-position {
+    width: 100%;
+  }
+}

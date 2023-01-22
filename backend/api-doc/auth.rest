@@ -1,0 +1,24 @@
+### REGISTER NEW USER
+POST http://localhost:8001/api/v1/auth/register
+Content-Type: application/json
+
+{
+   "firstName": "Daniel",
+   "lastName": "Narh",
+   "username": "naphtha",
+   "email": "kpododanielnarh@gmail.com",
+   "password": "123456789",
+   "confirmPassword": "123456789"
+}
+
+
+### LOGIN INTO ACCOUNT
+POST http://localhost:8001/api/v1/auth/login
+Content-Type: application/json
+
+{
+   "email": "kpododanielnarh@gmail.com",
+   "password": "123456789"
+}
+
+
