@@ -17,7 +17,9 @@ A MERN stack authentication project by **UNIGHANA**
 - Prompts invalid credentials
 - Provides alerts for login/logout
 
-## Project Images
+## Project Images & Demo
+
+https://www.veed.io/view/82bc5569-0ac8-49e5-b4ca-d9b501a3d875?panel=share
 
 <img src="./app-shots/signin.png">
 <img src="./app-shots/signup-screen.png">
