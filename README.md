@@ -10,6 +10,13 @@ A MERN stack authentication project by **UNIGHANA**
 
 **Server:** Node, Express, Mongodb
 
+## Project Essentials
+
+- User validation
+- Checks if email or username already exists
+- Prompts invalid credentials
+- Provides alerts for login/logout
+
 ## Project Images
 
 <img src="./app-shots/signin.png">
