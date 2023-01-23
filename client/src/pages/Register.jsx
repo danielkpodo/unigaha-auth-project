@@ -63,11 +63,13 @@ export default function Register() {
 
   useEffect(() => {
     if (user) {
-      wait(3).then(() => {
+      wait(2).then(() => {
         navigate("/dashboard");
       });
     }
   }, [user, navigate]);
+
+  console.log("Loading", isLoading);
 
   return (
     <ThemeProvider theme={theme}>
